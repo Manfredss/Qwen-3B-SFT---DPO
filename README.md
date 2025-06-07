@@ -21,3 +21,7 @@ SFT progress in 100 epochs*:
 *: Model may overfitted.
 
 ## DPO
+
+DPO used to train the model so that the model can generate in a particular style, so to speak. For example, if we have two correct answers for a question but they are in different styles, we can use DPO to train the model to favour a certain style over another.
+
+*Insuffienct CUDA memory leads this experiment to fail.*
